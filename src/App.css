@@ -1,0 +1,37 @@
+.header a{
+    text-decoration:none;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    margin: 0px;
+    background-color: #FFF7ED;
+    padding:40px 25px;
+}
+
+.logo a{
+    color: black;
+    font-weight: bold;
+    font-size:30px;
+}
+
+
+
+.App{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.nav{
+    display:flex;
+    gap:30px;
+}
+
+.nav a{
+    color: #4D4D4D;
+    font-size:20px;
+
+}
