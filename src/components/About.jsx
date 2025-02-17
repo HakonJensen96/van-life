@@ -1,11 +1,12 @@
 import React from "react"
 import "./About.css"
 import Button from "./Button.jsx"
+import topAboutImage from "../assets/images/about-top.png"
 
 export default function About() {
     return (
         <div className="about-container">
-            <img src="src/assets/images/about-top.png"/>
+            <img src={topAboutImage}/>
             <h1>Don’t squeeze in a sedan when you could relax in a van.</h1>
             <p>Our mission is to enliven your road trip with the perfect travel van rental. Our vans are recertified before each trip to ensure your travel plans can go off without a hitch.
 (Hitch costs extra 😉)</p>
